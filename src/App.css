@@ -1,0 +1,41 @@
+.App, .title, .description {
+  display: flex;
+}
+
+#videos-list{
+
+  margin-top: 2%;
+  margin-left: 2%;
+  height: 350px;
+  overflow-y: scroll;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+#handstick {
+  margin-top: 2%;
+  margin-left: 2%;
+  background: black;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#img_each{
+  width: 90%;
+    border: 1px solid;
+    padding: 5px;
+    margin-top: 10px;
+}
+.title, .description{
+   flex-direction: row;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+#more{
+    border: 2px dotted;
+    height: 40px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
